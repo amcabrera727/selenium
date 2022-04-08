@@ -1,0 +1,15 @@
+ArrayList is a class which implements the List interface of collection framwork.
+
+ArrayList is dynamic data structure i.e. like Arrays you don't
+need to define the size of ArrayList during the declaration.
+
+You can add and remove the elements from ArrayList adjust its size automatically.
+
+ArrayList can contain the duplicate elements.
+
+It implements all optional list operations and permits all elements, including null.
+
+Methods of ArrayList:
+
+--add(Object o)
+--add (int Index

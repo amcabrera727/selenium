@@ -1,0 +1,40 @@
+Selenium Review Class 01
+
+1. driver.get() -- opens url and waits until whole page is loaded
+2. driver.navigate.to() -- navigates to URL but does not wait for page to load
+3. driver.quit() -- closes the whole browser
+4. driver.close() -- closes tab
+5. maximize and minimize screen
+
+HTML:
+
+Locators:
+
+XPath:
+
+<html>
+    <body>
+            <h1>hello<h1>
+    </body>
+ </html>
+
+ Relative:
+ //input[@id='username']
+
+ Starts-with:
+ we can use starts-with in the xpath
+ //tagname[start-with(@attribute="starting of the attribute value")]
+ //input[start-with(@id, "user")]
+
+ Example:
+ <input id="imageno.1"/>
+ //input[start-with(@id,"imageno")]
+
+ contains
+ //tagname[contains(@id, 'some portion of the value')];
+
+ Example:
+ <input id="imageno.1"/>
+
+ //input[contains(@
+

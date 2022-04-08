@@ -1,0 +1,24 @@
+Wrapper Classes:
+
+--There are object types for all the primitive data types. When we use the wrapper classes
+  we get all the benefits of classes and objects. For example, we can have methods.
+--Also, generics only work with classes.
+
+Boxing in Wrapper Classes:
+--Boxing happens when we convert a primitive to corresponding wrapper type.
+  int num=10;
+  Integer num2=new Integer(num) //boxing
+--Unboxing happens when we convert a wrapper object to a corresponding
+  primitive type.
+  Integer num2=new Integer(10)
+  int num=num2.intValue();
+
+Integer num=10; //autoboxing
+int num2=num; // auto unboxing
+
+List ( it is an interface in collections frame which is implemented by two classes
+ArrayList   LinkedList
+
+1. We can store the duplicate values in lists.
+2. Insertion order is maintained.
+
