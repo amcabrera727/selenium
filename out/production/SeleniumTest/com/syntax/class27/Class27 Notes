@@ -1,0 +1,39 @@
+Collections Framework in Java:
+--collection of classes that help us manage and manipulate data in a better way.
+--collection of interfaces and classes which help in storing and processing the data efficiently
+--most frequently used for the test automation: List, Set, Map
+
+
+1. ArrayList
+    --this class has many built-in methods like add() , remove() , clear() , etc.
+    --dynamic and can adjust their size at run time.
+
+ArrayList<> arrayList= new ArrayList<>();
+ArrayList-- name of the class
+<>= diamond operator--> inside we specify the type of data we want to store inside the array list
+
+Wrapper Classes
+byte--> Byte
+--they provide a way to use primitive data types (int, boolean, etc) as objects
+--Wrapper classes in java provide the mechanism to convert primitive into object and vise versa
+--sometimes we must use wrapper classes for example when working with Collection
+  objects such as ArrayList where primitive types cannot be used.
+--Each Java primitive has a corresponding wrapper:
+    -boolean, byte, short, char, int , long, float, double
+    -Boolean, Byte, Short, Character, Integer, Long, Float, Double
+
+
+Why wrapper classes?
+1. We get built-in methods
+2. A lot of frameworks don't support primitives
+
+When to use primitives:
+1. When we care about the memory because primitives occupy 4 times less memory as compared to wrapper
+2. Performance
+
+When to use wrapper:
+1. When we care about our ease
+
+Boxing-- converting a primitive value into a wrapper object
+Unboxing-- converting a wrapper object into a primitive value
+

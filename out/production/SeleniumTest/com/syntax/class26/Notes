@@ -1,0 +1,16 @@
+Abstraction in JAVA:
+Hiding the implementation details and providing the functionality only
+Two methods to achieve abstractions:
+1. Abstract classes
+2. Interfaces
+
+Abstract classes: Abstract classes are classes with abstract keyword.
+Interfaces: Interfaces are the contracts that we create with the help of interface keyword.
+
+How to decide which one to use?
+1. prefer the interfaces over the abstract classes.
+2. if two or more classes are closely related to each other, go with abstract classes.
+    for example, if we have to create a Lion class and a Horse class we should go with abstract
+    classes and should create an animal abstract class.
+    -if two classes are not related to each other for example an Apple and a cloth, we should
+    create an interface for that. If we want to have a behavior washAble

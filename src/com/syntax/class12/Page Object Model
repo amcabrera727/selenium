@@ -1,0 +1,39 @@
+
+
+Page Object Model:
+
+1)TestBase:
+will consist of opening and closing the browser
+
+    -Setting up property
+    -initialize Webdriver
+    -navigate to url
+    -quit the browser
+
+2)Pages:
+    -Login Page Class
+        -WebElements
+        -username
+        -password
+        -loginButton
+    -DashboardPage
+        -WebElements
+        -Table
+        -Logo
+        -LogoButton
+        -deleteSelectedButton
+        -Checkboxes
+
+
+3)Tests:
+    -LoginPage
+        -Actions
+        -click
+        -sendKeys
+
+4)Utils:
+    -common methods
+    -DataBase utilities
+:100:
+1
+

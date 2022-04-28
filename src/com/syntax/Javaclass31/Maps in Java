@@ -1,0 +1,7 @@
+Maps in Java
+
+--It's a data structure that allows us to store key value pairs.
+1. Searching is efficient
+2. We can use any type of keys like Double String char etc., we are not restricted to integer based natural indexes.
+
+--There are many types of maps, but we will be discussing only four of them.
